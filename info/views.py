@@ -16,8 +16,8 @@ def home(request):
 def add(request):
 
 
-    val1 = (request.GET['num1'])
-    val2 = (request.GET['num2'])
+    val1 = int(request.GET['num1'])
+    val2 = int(request.GET['num2'])
 
     result = val1 + val2
 
